@@ -25,9 +25,9 @@ A simple and responsive To-Do List web app built using HTML, CSS, and JavaScript
 todo-list/
 ├── README.md # Project description
 ├── screenshot.png # (optional) App screenshot
-├── todo.html # Main HTML file
 ├── todo bg.jpg # Background Image
-└── todo.css # Styling
+├── todo.css # Styling
+└── todo.html # Main HTML file
 
 ---
 
