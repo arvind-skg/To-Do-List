@@ -121,6 +121,28 @@ center{
   font-size: 13px;
   color: #555;
   background-color: transparent ;
- 
+}
+@media (max-width: 480px) {
+  #heading {
+    font-size: 20px;
+  }
+
+  #Input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #addbtn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #added_task {
+    font-size: 16px;
+  }
+
+  #task_time {
+    font-size: 12px;
+  }
 }
 
