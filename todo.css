@@ -1,0 +1,126 @@
+body{
+  background-image: url('todo\ bg.jpg'); 
+  min-height: 100%;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(119, 117, 117, 0.308); /* ← adjust opacity here */
+  z-index: -1;
+}
+#window{
+    height: 100vh;
+
+}
+#heading{
+    text-align: center;
+    margin-top: 10%;
+    font-family:fantasy;
+    font-size:100px;
+    font-style: oblique;
+    font-weight: 100;
+    background-color: transparent;
+    -webkit-text-stroke-color:rgba(244, 243, 243, 0.742);
+    -webkit-text-stroke-width: 2px;
+}
+#Input{
+    width: 50vw;
+    height: 3vh;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+    margin-top: 5%;
+    background-color: transparent;
+}
+#Input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    color:rgba(2, 6, 9, 0.603);
+}
+#addbtn{
+     width: 8vw;
+    height: 3vh;
+    border-radius: 3px;
+    border-style: solid;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+    background: transparent;
+    cursor: pointer;    
+}
+#addbtn:hover{
+    background-color: rgba(240, 248, 255, 0.467);
+    color: rgba(0, 0, 0, 0.74);
+}
+center{
+    background-color: transparent;
+}
+#innerbox{
+    border-style: solid;
+    padding: 10px 10px 30px 10px;
+    margin-top: 10px;
+    font-size: medium;
+    width: 97vw;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 98%;        
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    overflow-x: auto;     
+    box-sizing: border-box;
+    
+}
+#added_task
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight: 100;
+    background-color: transparent;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+#delete_btn
+{
+    width: 5vw;
+    height: 3vh;
+    border-radius: 3px;
+    border-style: solid;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+    background-color: rgba(232, 15, 15, 0.534);
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#delete_btn:hover{
+    background-color: rgba(244, 124, 124, 0.982);
+    
+}
+#task_time {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 13px;
+  color: #555;
+  background-color: transparent ;
+ 
+}
+
