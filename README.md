@@ -34,7 +34,7 @@ todo-list/
 ## 🚀 How to Run the Project
 
 1. Clone or download this repository
-2. Open `index.html` in any web browser
+2. Open `todo.html` in any web browser
 3. Start adding your tasks!
 
 ---
