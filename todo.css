@@ -130,7 +130,9 @@ body::before {
     width: 90%;
     font-size: 0.9rem;
   }
-
+  #Input::placeholder{
+      padding-top: 1px;
+  }
   #delete_btn {
     width: 70px;
     height: 30px;
@@ -156,7 +158,9 @@ body::before {
     flex-direction: column;
     align-items: flex-start;
   }
-
+  #Input::placeholder{
+    padding-top: 1px;
+  }
   #added_task {
     font-size: 0.9rem;
     margin-bottom: 5px;
