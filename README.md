@@ -23,10 +23,11 @@ A simple and responsive To-Do List web app built using HTML, CSS, and JavaScript
 
 ## 📁 File Structure
 todo-list/
-├── index.html # Main HTML file
-├── todo.css # Styling
 ├── README.md # Project description
-└── screenshot.png # (optional) App screenshot
+├── screenshot.png # (optional) App screenshot
+├── todo.html # Main HTML file
+├── todo bg.jpg # Background Image
+└── todo.css # Styling
 
 ---
 
