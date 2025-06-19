@@ -46,6 +46,7 @@ body::before {
 #Input::placeholder {
   font-size: 16px;
   color: rgba(2, 6, 9, 0.603);
+  padding-top: 10px;
 }
 
 #addbtn {
